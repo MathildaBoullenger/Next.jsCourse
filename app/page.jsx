@@ -1,6 +1,7 @@
-'use client';
+//'use client';
+import Heading from "@/components/Heading";
 
-import { useEffect } from "react";
+//import { useEffect } from "react";
 
 export default function HomePage() {
     /*useEffect(() => {
@@ -8,7 +9,7 @@ export default function HomePage() {
         }, []);*/
   return (
     <>
-      <h1>Indie Gamer</h1>
+      <Heading>Indie Gamer</Heading>
       <p>
         Only the best indie games, reviewed for you.
         </p>
