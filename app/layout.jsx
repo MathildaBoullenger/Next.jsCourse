@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <footer
-          className="border-t py-3 text-center text-xs"
+          className="border-t py-3 text-center text-slate-500 text-xs"
           //style={{ border: "solid blue 1px" }}
         >
           Game and images courtesy of{" "}
