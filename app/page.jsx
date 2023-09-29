@@ -9,7 +9,7 @@ export default async function HomePage() {
         window.alert('Welcome to my site!!!');
         }, []);*/
   const review = await getFeaturedReview();
-  console.log('[HomePage] rendering');
+  //console.log('[HomePage] rendering');
   return (
     <>
       <Heading>Indie Gamer</Heading>
